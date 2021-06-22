@@ -5,7 +5,9 @@
 
 #### Donations welcome
 BTC 1M7RBtkUEk1Rcq79ubk5ktZar5NMVDXKqj
+
 ETH 0xf0D65F6edF89D9B1B5F45A84bDCe628705A0175A
+
 LTC LcCsNL6nnEobDwaqcsxZu48YhoN5QjPDAF
 
 ### Why
