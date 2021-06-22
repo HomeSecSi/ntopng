@@ -134,7 +134,7 @@ docker build -t ntopng .
 ### Or Pull from docker hub...
 
 ```
-docker pull homesecsi/ntopng-netflow2ng
+docker pull homesecsi/ntopng
 ```
 ## Run
 
@@ -152,7 +152,7 @@ docker run -it \
 -e LOCALNET="192.168.1.0/24" \
 -v /path/to/save/files/on/host:/var/lib/ntopng \
 --restart unless-stopped \
-homesecsi/ntopng-netflow2ng
+homesecsi/ntopng
 ```
 
 ### After building from source
