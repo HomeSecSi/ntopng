@@ -122,6 +122,13 @@ for MySQL it would be
 
 If you dont set this flows disappear as soon as they expire. Tip: it should be pretty easy to set up a Dockmer mariadb instance, database, user & password then point -e FLOWDUMP string at that.
 
+#### Command line options [optional]
+You can use -e ADVANCED to pass additional [command line options](https://www.ntop.org/guides/ntopng/cli_options.html?highlight=command%20line) to ntopng. In the example, we pass the --http-prefix option that you may use if you were to run ntopng behind a proxy such as nginx
+
+```
+-e ADVANCED="--http-prefix=/ntopng"
+```
+
 ## OK! Lets get it
 
 ### Build from source
